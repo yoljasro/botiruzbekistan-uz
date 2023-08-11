@@ -1,0 +1,35 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.footer
+    display: flex
+    justify-content: center
+    flex-direction: column  
+    align-content: center
+    align-items: center
+    width: 100%
+    gap: 40px
+    padding: 55px 50px 35px 50px
+    font-size: 25px
+    background: #000000eb
+
+    &__social
+        display: flex
+        gap: 50px
+    
+    &__icon
+        color: white
+        font-size: 35px
+        &:hover
+            transform: rotate(360deg)
+            transition: 0.3s linear
+            cursor: pointer
+
+    &__info
+        @include font(21px , $white , medium)
+        display: flex
+        flex-direction: column
+        gap: 15px
+        text-align: center
+
+        & span
+            @include font(17px , gray , light)

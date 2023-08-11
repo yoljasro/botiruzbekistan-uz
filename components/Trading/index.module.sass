@@ -1,0 +1,76 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.trading
+    justify-content: center
+    align-content: center
+    text-align: center
+    width: 100%
+    background: #FAF8F6
+    margin-bottom: 50px
+
+    &__info
+        display: flex
+        flex-direction: column
+        align-content: center
+        align-items: center
+        gap: 30px
+
+    &__title
+        text-align: center
+        @include font(70px , black , bold)
+        padding-top: 50px
+
+    &__desc
+        @include font(18px  , #4A556C , light)
+        text-align: center
+        width: 100%
+        max-width: 700px
+
+    &__cards
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        width: 100%
+        gap: 50px
+        margin-bottom: 50px
+        margin-top: 50px
+
+    &__card
+        background: #727AF0
+        width: 100%
+        display: flex
+        justify-content: center
+        flex-direction: column
+        gap: 20px
+        max-width: 440px
+        padding: 4px
+        border-radius: 12px
+        margin-bottom: 30px
+        flex-wrap: wrap
+        box-shadow: 0.4px 2px 0.8px 0.4px aqua
+
+    &__cardTitle
+        @include font(40px , white, medium)
+
+    &__cardDesc
+        @include font(17px , white, light)
+        padding: 5px
+
+    &__social
+        display: flex
+        gap: 50px
+        justify-content: center
+        width: 100%
+
+    &__icon
+        // color: white
+        font-size: 35px
+        &:hover
+            transform: rotate(360deg)
+            transition: 0.3s linear
+            cursor: pointer
+
+    &__website
+        color: lightblue
+        padding-top: 25px
+        padding-bottom: 50px

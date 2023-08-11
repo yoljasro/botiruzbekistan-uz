@@ -1,0 +1,47 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .halalCard {
+        width: 420px;
+        background: #727AF0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        box-shadow: 0.4px 2px 0.8px 0.4px aqua;
+    }
+  
+  .halalCardImage {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 130px;
+    border-top-left-radius: 12px;
+    // display: flex;
+
+    // margin: auto;
+    border-top-right-radius: 12px;
+  }
+
+  
+  .halalCardContent {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .halalCardTitle {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .halalCardDescription {
+    font-size: 16px;
+    color: white;
+  }
