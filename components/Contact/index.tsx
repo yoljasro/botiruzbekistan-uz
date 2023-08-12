@@ -19,13 +19,13 @@ export const Contact = () => {
             <h2>Ijtimoiy Tarmoqlar</h2>
             <div className={styles.links}>
             <div className={styles.icon}>
-                <a rel='noore[,                                                                                                                                                                                                                                                                                                                                                                                                         ' className={styles.text} href="https://instagram.com/botir.uzbekistan">Instagram</a>
-                <a className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">Whatsapp</a>
+                <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">Instagram</a>
+                <a rel='noreferrer'  className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">Whatsapp</a>
 
             </div>
             <div className={styles.icon}>
-            <a className={styles.text} href="https://www.facebook.com/botir.mirzagaliev">Facebook</a>
-            <a className={styles.text} href="https://t.me/botir_uzbekistan">Telegram</a> 
+            <a rel='noreferrer'  className={styles.text} href="https://www.facebook.com/botir.mirzagaliev">Facebook</a>
+            <a rel='noreferrer'  className={styles.text} href="https://t.me/botir_uzbekistan">Telegram</a> 
             </div>
             </div>
 

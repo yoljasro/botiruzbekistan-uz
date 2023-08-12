@@ -13,11 +13,11 @@ export const Header = () => {
     <div id='header' className={  styles.header}>
       <div className={styles.header__info}>
       <h1 className={styles.header__title}>Botir Uzbekistan</h1>
-      <p className={styles.header__desc}>- O‘zbekistonda , Toshkent shahrida tug‘ilgan. <br />
-- Oliy maʼlumotni Yevropada qo‘lga kiritgan. <br /> - Shu bilan birgalikda , Yevropadagi O‘zbekiston elchixonasi bilan - hamkorlikda ishlagan.   <br /> - Keyinchalik , 
-Turizm Vazirligini Yevropadagi Vakili sifatida o‘z ish faoliyatini yuritgan. <br /> - O‘zbekistonga kelganidan so‘ng Hokimiyatda ishlagan. <br /> - Hokimiyatdan keyin Butunjahon Halol Qo‘mitasining Rais O‘rinbosar bo‘lib tayinlangan. <br />
+      <p className={styles.header__desc}>- O\zbekistonda , Toshkent shahrida tugilgan. <br />
+- Oliy malumotni Yevropada qolga kiritgan. <br /> - Shu bilan birgalikda , Yevropadagi Ozbekiston elchixonasi bilan - hamkorlikda ishlagan.   <br /> - Keyinchalik , 
+Turizm Vazirligini Yevropadagi Vakili sifatida oz ish faoliyatini yuritgan. <br /> - Ozbekistonga kelganidan song Hokimiyatda ishlagan. <br /> - Hokimiyatdan keyin Butunjahon Halol Qomitasining Rais Orinbosar bolib tayinlangan. <br />
 
-- Hozirgi kunda ushbu lavozim bilan birgalikda yana bir necha yo'nalishdagi bizneslarning egasi. <br /> - Asos solinayotgan bizneslar va ularning faoliyati haqida  saytda ko'rib borishingiz mumkin. </p>
+- Hozirgi kunda ushbu lavozim bilan birgalikda yana bir necha yonalishdagi bizneslarning egasi. <br /> - Asos solinayotgan bizneslar va ularning faoliyati haqida  saytda korib borishingiz mumkin. </p>
       {/* <Button className={styles.header__btn} variant='contained'>Batafsil koring</Button> */}
       </div>
       <div className={styles.header__img}>
