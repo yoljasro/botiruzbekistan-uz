@@ -25,7 +25,7 @@
             description="Yevropa Ittifoqiga kiradigan Latviya davlatining poytaxti Rigada O'zbekiston Respublikasining Turizm salohiyatini targ'ibot ishlarini amalga oshirgan."
           />
           <HalalCard
-            image="/img/hokmm.png"
+            image="/img/hokmmm.png"
             title="Toshkent viloyati Qibray Tumani Hokimligi"
             description="Investitsiya bo'limining bosh mutaxassisi"
           />

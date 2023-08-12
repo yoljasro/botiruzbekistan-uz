@@ -6,7 +6,6 @@
   margin-bottom: 50px;
   padding: 20px;
 }
-
 .halalTitle {
   font-size: 38px;
   font-weight: bold;
@@ -35,5 +34,6 @@
 @media (max-width: 768px) {
   .halalCardsContainer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 30px;
   }
 }

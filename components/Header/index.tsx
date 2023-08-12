@@ -21,7 +21,7 @@ Turizm Vazirligini Yevropadagi Vakili sifatida oz ish faoliyatini yuritgan. <br 
       {/* <Button className={styles.header__btn} variant='contained'>Batafsil koring</Button> */}
       </div>
       <div className={styles.header__img}>
-        <Image className={styles.header__person} src={'/img/botiroriginal.jpeg'} alt='botir' width={400} height={600}/>
+        <Image className={styles.header__person} src={'/img/botiroriginal.png'} alt='botir' width={400} height={600}/>
       </div>
       </div>
   )
