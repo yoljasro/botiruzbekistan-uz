@@ -4,10 +4,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 // react icons
 import { FaInstagram  , FaTelegram , FaFacebook} from 'react-icons/fa';
+// intl
+import { useTranslations } from 'next-intl';
 // styles
 import styles from './index.module.sass'
 
 export const Footer = () => {
+  const t = useTranslations()
   
   return (
     <div id='footer' className={styles.footer}>
@@ -23,8 +26,8 @@ export const Footer = () => {
           </Link>
         </div>
         <div className={styles.footer__info}>
-          <p>botir.mirzagaliev@gmail.com</p>
-          <p>Phone: +998 |95| 707-08-07</p>
+          <p>{t("contactBlock.email")}</p>
+          <p>{t("contactBlock.phone")}</p>
           <span>@ 2023 All reserved by BOTIR.UZBEKISTAN</span>
         </div>
       </div>

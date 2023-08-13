@@ -1,31 +1,34 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import styles from './index.module.scss';
 // next componenet
 
 export const Contact = () => {
+  const t = useTranslations()
+
   return (
     <>
-    <h1 className={styles.title}>Kontakt</h1>
+    <h1 className={styles.title}>{t("contactBlock.title")}</h1>
     <div className={styles.contact} id='contact'>
       <div className={styles.content}>
         <div className={styles.cards}>
           <div className={styles.card}>
-            <h2>Hamkorlik va Reklama</h2>
-            <p>Telefon: +998 |95| 707-08-07</p>
-            <p>E-mail: botir.mirzalagaliev@gmail.com</p>
+            <h2>{t("contactBlock.advertising")}</h2>
+            <p>{t("contactBlock.phone")}</p>
+            <p>{t("contactBlock.email")}</p>
           </div>
           <div className={styles.card}>
-            <h2>Ijtimoiy Tarmoqlar</h2>
+            <h2>{t("contactBlock.social")}</h2>
             <div className={styles.links}>
             <div className={styles.icon}>
-                <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">Instagram</a>
-                <a rel='noreferrer'  className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">Whatsapp</a>
+                <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">{t("contactBlock.instagram")}</a>
+                <a rel='noreferrer'  className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">{t("contactBlock.whatsapp")}</a>
 
             </div>
             <div className={styles.icon}>
-            <a rel='noreferrer'  className={styles.text} href="https://www.facebook.com/botir.mirzagaliev">Facebook</a>
-            <a rel='noreferrer'  className={styles.text} href="https://t.me/botir_uzbekistan">Telegram</a> 
+            <a rel='noreferrer'  className={styles.text} href="https://www.facebook.com/botir.mirzagaliev">{t("contactBlock.facebook")}</a>
+            <a rel='noreferrer'  className={styles.text} href="https://t.me/botir_uzbekistan">{t("contactBlock.telegram")}</a> 
             </div>
             </div>
 

@@ -13,7 +13,7 @@ interface BusinessProps {
 }
 
 interface Business {
-  name: string;
+  name: any;
   description: string;
   icon: React.ReactNode;
   trade?: string;

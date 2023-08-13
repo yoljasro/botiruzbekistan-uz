@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 // import { Navbar } from "../components/Navbar";
 import type { NextPage, GetStaticProps } from "next";
+import { useTranslations } from "next-intl";
 import { Header } from "../components/Header";
 import { Business } from "../components/Business";
 import { Halal } from "../components/Halal";
@@ -13,21 +14,22 @@ import { Footer } from "../components/Footer";
 import {FiBriefcase} from 'react-icons/fi'
 
 export default function Home() {
+  const t = useTranslations()
 
   const businesses = [
     {
-      name: "Yevropada Oliy Ta'lim",
-      description: "Abituriyentlarga Yevropadagi universitetlarga qabul bo'lishida ko'mak berish" , 
+      name: t("businessBlock.europe"),
+      description:  t("businessBlock.europeInfo") , 
       icon: <FiBriefcase />,
     },
     {
-      name: 'Konsulting Xizmatlari',
-      description: 'Yevropa Ittifoqiga kiradigan barcha davlatlarga ish va talabalik vizasini  qo\'lga kiritishda ko\'mak berish',
+      name:  t("businessBlock.consulting"),
+      description:  t("businessBlock.consultingInfo"),
       icon: <FiBriefcase />,
     },
     {
-      name: 'Kompaniyalar guruhi',
-      description: " - O\'zbegim somsalari - Treyderlik kompaniyasi  - IT Kompaniya",
+      name:  t("businessBlock.company"),
+      description:  t("businessBlock.companyInfo"),
       icon: <FiBriefcase />,
     },
   ];
@@ -45,14 +47,14 @@ export default function Home() {
           name="google-site-verification"
           content="Pi7kisuljjOmFbBlvmk-S8DASJP-WbIGUQ1ERs9XwS4"
         />
-        <link rel="icon" href="/assets/img/logo.svg" />
+        <link rel="icon" href="/img/logo.png" />
       </Head>
       <Navbar/>
       <Header/>
       <Halal/>
       <Business
-        title="Biznes"
-        description="Ushbu bolimda siz Botir Uzbekistanning shaxsiy bizneslari bilan tanishib chiqishingiz mumkin"
+        title={t("businessBlock.title")}
+        description={t("businessBlock.info")}
         businesses={businesses}
       />
       {/* <Trading/> */}

@@ -8,31 +8,31 @@
     return (
       <div className={styles.halal}>
         <div>
-        <h2 className={styles.halalTitle}>Davlat xizmati</h2>
+        <h2 className={styles.halalTitle}>{t("work.title")}</h2>
         <p className={styles.halalDescription}>
-          Ushbu bolimda siz Botir Uzbekistaning davlat idoralaridagi faoliyati bilan tanishishingiz mumkin:
+        {t("work.info")}
         </p>
         </div>
         <div className={styles.halalCardsContainer}>
           <HalalCard
             image="/img/gerbb.png"
-            title="O'zbekistaon Respublikasining Latviya Respublikasidagi Elchixonasi"
-            description="Diplomatik vakolatxona faoliyatiga yaqinda ko'mak berganligi uchun O'zbekiston Respublikasining Latviya Respublikasidagi Favqulodda va Muxtor Elchisi tomonidan taqdirlangan."
+            title={t("work.embassy")}
+            description={t("work.embassyInfo")}
           />
           <HalalCard
             image="/img/turismm.png"
-            title="Turizm Rivojlantirish Davlat Qo'mitasi"
-            description="Yevropa Ittifoqiga kiradigan Latviya davlatining poytaxti Rigada O'zbekiston Respublikasining Turizm salohiyatini targ'ibot ishlarini amalga oshirgan."
+            title={t("work.tourism")}
+            description={t("work.tourismInfo")}
           />
           <HalalCard
             image="/img/hokmmm.png"
-            title="Toshkent viloyati Qibray Tumani Hokimligi"
-            description="Investitsiya bo'limining bosh mutaxassisi"
+            title={t("work.region")}
+            description={t("work.regionInfo")}
           />
           <HalalCard
             image="/img/halal.svg"
-            title="Butunjahon Halol Qo'mitasi"
-            description="Butunjahon Halol Qo'mitasining Rais-Orinbosari"
+            title={t("work.worldHalal")}
+            description={t("work.worldHalalInfo")}
           />
         </div>
       </div>

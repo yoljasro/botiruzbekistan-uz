@@ -53,7 +53,7 @@ import styles from './index.module.sass';
   return (
     <div className={styles.navbar}> 
     <div className={styles.navbar__logoCont}>
-      <Image className={styles.navbar__logo} src={'/img/logo2.png'} alt='logo' width={130} height={120}  objectFit='contain'/>
+      <Image className={styles.navbar__logo} src={'/img/logo.png'} alt='logo' width={130} height={120}  objectFit='contain'/>
       </div>
       <ul className={styles.navbar__menu}>
       <li>
