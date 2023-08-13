@@ -24,7 +24,6 @@ export const Contact = () => {
             <div className={styles.icon}>
                 <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">{t("contactBlock.instagram")}</a>
                 <a rel='noreferrer'  className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">{t("contactBlock.whatsapp")}</a>
-
             </div>
             <div className={styles.icon}>
             <a rel='noreferrer'  className={styles.text} href="https://www.facebook.com/botir.mirzagaliev">{t("contactBlock.facebook")}</a>

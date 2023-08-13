@@ -98,6 +98,9 @@
     align-content: center;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    @media (max-width: 768px) {
+      height: 170px;
+    }
   }
   .links{
     display: flex;
@@ -123,4 +126,5 @@
     color: gray;
     text-align: left;
   }
+
 
