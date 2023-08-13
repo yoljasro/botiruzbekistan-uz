@@ -31,7 +31,8 @@ export const Business: React.FC<BusinessProps> = ({ title, description, business
         {businesses.map((business, index) => (
           <div className={styles.businessCard} key={index}>
             <div className={styles.businessIcon}>
-              {/* <Image src={'/img/hokimiyat'} alt='icon'/>  */}
+              {/* <Image src={'/img/hokimiyat'} alt='icon'/>  */} 
+              {/* // fdfd */}
             </div>
             <h3 className={styles.name}>{business.name}</h3>
             <div className={styles.spans}>
