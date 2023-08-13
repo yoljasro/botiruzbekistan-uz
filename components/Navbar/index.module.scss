@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+  padding: 55px 50px 5px 70px;
+  font-size: 25px;
+  background: #000000eb;
+
+  &__logoCont {
+    width: 100%;
+    max-width: 180px;
+    height: 160px;
+    display: flex;
+    padding: 4px;
+  }
+
+  &__menuIcon {
+    display: none;
+    @media (max-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    margin-top: 45px;
+    gap: 40px;
+    @include font(23px, $white, bold);
+    cursor: pointer;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    &:hover {
+      color: aqua;
+      text-decoration: underline;
+    }
+  }
+
+  &__mobileMenu {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__mobileMenuItem {
+    @include font(23px, $white, bold);
+    cursor: pointer;
+    margin-bottom: 15px;
+    &:hover {
+      color: aqua;
+      text-decoration: underline;
+    }
+  }
+
+  &__language {
+    width: 100% !important;
+    max-width: 340px !important;
+    border-color: white !important;
+    margin-top: 31px;
+    outline-color: white !important;
+    @include font(22px, $white, bold);
+  }
+
+  &__select {
+    color: black !important;
+  }
+}
