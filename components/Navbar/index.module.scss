@@ -21,7 +21,7 @@
   &__menuIcon {
     display: none;
     @media (max-width: 768px) {
-      display: flex;
+      // display: flex;
     }
   }
 
@@ -44,7 +44,7 @@
   &__mobileMenu {
     display: none;
     @media (max-width: 768px) {
-      display: block;
+      // display: block;
     }
   }
 
@@ -68,6 +68,8 @@
   }
 
   &__select {
-    color: black !important;
+    @include font(22px, $white, bold);
+    border: none !important;
+    outline: none !important;
   }
 }
