@@ -41,7 +41,7 @@ export const Navbar: FC = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar__logoCont}>
-      <Image className={styles.navbar__logo} src={'/img/logo2.png'} alt='logo' width={130} height={120}  objectFit='contain'/>
+      <Image className={styles.navbar__logo} src={'/img/logoor.png'} alt='logo' width={130} height={120}  objectFit='contain'/>
       </div>
       <IconButton className={styles.navbar__menuIcon} onClick={toggleMenu}>
         <FiMenu />
