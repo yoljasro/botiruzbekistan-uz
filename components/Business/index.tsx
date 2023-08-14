@@ -22,7 +22,7 @@ interface Business {
 
 export const Business: React.FC<BusinessProps> = ({ title, description, businesses }) => {
   return (
-    <div className={styles.businessComponent}>
+    <div className={styles.businessComponent} id='business'>
       <div className={styles.businessHeader}>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.desc}>{description}</p>

@@ -6,7 +6,7 @@
   export const Halal: React.FC = () => {
     const t = useTranslations()
     return (
-      <div className={styles.halal}>
+      <div className={styles.halal} id='halal'>
         <div>
         <h2 className={styles.halalTitle}>{t("work.title")}</h2>
         <p className={styles.halalDescription}>

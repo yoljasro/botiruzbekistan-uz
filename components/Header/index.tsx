@@ -13,7 +13,7 @@ export const Header = () => {
   const t = useTranslations()
   
   return (
-    <div id='header' className={styles.header}>
+    <div id='bio' className={styles.header}>
         <div className={styles.header__info}>
           <h2 className={styles.header__title}>Botir Uzbekistan</h2>
           <p className={styles.header__desc}>{t("header.info")} </p>
