@@ -20,7 +20,7 @@ export const Header = () => {
         </div>
         
       <div className={styles.header__img}>
-        <Image className={styles.header__person} src={'/img/hokmm.png'} alt='botir'  objectFit='fill' width={360} height={550}/>
+        <Image className={styles.header__person} src={'/img/botiruz.png'} alt='botir'  objectFit='fill' width={360} height={550}/>
       </div>
       </div>
   )
