@@ -4,42 +4,42 @@
   "halal": "Davlat xizmati",
   "trading": "Trading",
   "contact": "Aloqa",
-  "bio": "Biografiya" , 
-  "header" : {
-    "info" : "-O'zbekistonda  , Toshkeknt shahrida tugilgan. - Oliy ma'lumotni Yevropada qo'lga kiritigan. - Shu bilan birgalikda elchixonasi bilan hamkorlikda ishlagan. - Keyinchalik ,  Turizm Vazirligini Yevropadagi Vakili sifatida oz ish faoliyatini yuritgan.  - Ozbekistonga kelganidan song Hokimiyatda ishlagan.  - Hokimiyatdan keyin Butunjahon Halol Qomitasining Rais Orinbosar bolib tayinlangan.- - Hozirgi kunda ushbu lavozim bilan birgalikda yana bir necha yonalishdagi bizneslarning egasi.  - Asos solinayotgan bizneslar va ularning faoliyati haqida  saytda korib borishingiz mumkin  "
-  } , 
-  "work" : {
-    "title" : "Davlat xizmati",
-    "info" : "Ushbu bolimda siz Botir Uzbekistaning davlat idoralaridagi faoliyati bilan tanishishingiz mumkin:" ,
-    "embassy" : "O'zbekistaon Respublikasining Latviya Respublikasidagi Elchixonasi" ,
-    "embassyInfo"  :"Diplomatik vakolatxona faoliyatiga yaqinda ko'mak berganligi uchun O'zbekiston Respublikasining Latviya Respublikasidagi Favqulodda va Muxtor Elchisi tomonidan taqdirlangan."  ,
-    "tourism" : "Turizm Rivojlantirish Davlat Qo'mitasi",
-    "toursimInfo" : "Yevropa Ittifoqiga kiradigan Latviya davlatining poytaxti Rigada O'zbekiston Respublikasining Turizm salohiyatini targ'ibot ishlarini amalga oshirgan." , 
-    "region" : "Toshkent viloyati Qibray Tumani Hokimligi" , 
-    "regionInfo" : "Investitsiya bo'limining bosh mutaxassisi" ,
-    "worldHalal" : "Butunjahon Halol Qo'mitasi" , 
-    "worldHalalInfo" : "Butunjahon Halol Qo'mitasining Rais-Orinbosari"
-  } ,
-  "businessBlock" :{
-    "title" : "Biznes" , 
-    "info" : "Ushbu bolimda siz Botir Uzbekistanning shaxsiy bizneslari bilan tanishib chiqishingiz mumkin" , 
-    "europe" : "Yevropada Oliy Ta'lim" ,
-    "europeInfo" : "Abituriyentlarga Yevropadagi universitetlarga qabul bo'lishida ko'mak berish",
-    "consulting" : "Konsulting Xizmatlari" , 
-    "consultingInfo" : "Yevropa Ittifoqiga kiradigan barcha davlatlarga ish va talabalik vizasini qo'lga kiritishda ko'mak berish" , 
-    "company" : "Kompaniyalar guruhi" , 
-    "companyInfo" : "- O'zbegim somsalari - Treyderlik kompaniyasi - IT Kompaniya"
-  } ,
-  "contactBlock" : {
-    "title" :"Kontakt",
-    "advertising" : "Hamkorlik va Reklama",
-    "phone" : "Telefon: +998 |95| 707-08-07" , 
-    "email" : "E-mail: . botir.mirzagaliev@gmail.com",
-    "social" : "Ijtimoiy Tarmoqlar" ,
-    "telegram" : "telegram" , 
-    "instagram " : "Instagram" , 
-    "facebook" : "facebook", 
-    "whatsapp" : "whatsapp"
+  "instagram ": "Instagram",
+  "workingtourism": "Yevropa Ittifoqiga kiradigan barcha davlatlarga ish va talabalik vizasini qo'lga kiritishda ko'mak berish",
+  "bio": "Biografiya",
+  "header": {
+    "info": " O'zbekistonda, Toshkent shahrida tug'ilgan.Oliy ma'lumotni Yevropada olingan.Elchixonasi bilan hamkorlikda ishlagan.Keyinchalik Turizm Vazirligi vakili lavozimini egasiga ega bo'lgan.O'zbekistonga qaytishidan keyin Hokimiyatda ishlagan.Keyinchalik Butun Jahon Halol Qomitasining raisi sifatida tayinlangan.Hozirgi kunda turli sohalardagi bir nechta bizneslarga egasidir.Asosiy bizneslarni va ularning faoliyatini saytda ko'rish imkoniyatiga ega bo'lasiz.  "
+  },
+  "work": {
+    "title": "Davlat xizmati",
+    "info": "Ushbu bolimda siz Botir Uzbekistaning davlat idoralaridagi faoliyati bilan tanishishingiz mumkin:",
+    "embassy": "O'zbekiston Respublikasining Latviya Respublikasidagi Elchixonasi",
+    "embassyInfo": "Diplomatik vakolatxona faoliyatiga yaqinda ko'mak berganligi uchun O'zbekiston Respublikasining Latviya Respublikasidagi Favqulodda va Muxtor Elchisi tomonidan taqdirlangan.",
+    "tourism": "Turizm Rivojlantirish Davlat Qo'mitasi",
+    "toursimInfo": "Yevropa Ittifoqiga kiradigan Latviya davlatining poytaxti Rigada O'zbekiston Respublikasining Turizm salohiyatini targibot ishlarini amalga oshirgan.",
+    "region": "Toshkent viloyati Qibray Tumani Hokimligi",
+    "regionInfo": "Investitsiya bo'limining bosh mutaxassisi",
+    "worldHalal": "Butunjahon Halol Qo'mitasi",
+    "worldHalalInfo": "Butunjahon Halol Qo'mitasining Rais-Orinbosari"
+  },
+  "businessBlock": {
+    "title": "Biznes",
+    "info": "Ushbu bolimda siz Botir Uzbekistanning shaxsiy bizneslari bilan tanishib chiqishingiz mumkin",
+    "europe": "Yevropada Oliy Ta'lim",
+    "europeInfo": "Abituriyentlarga Yevropadagi universitetlarga qabul bo'lishida ko'mak berish",
+    "consulting": "Konsulting Xizmatlari",
+    "consultingInfo": "Yevropa Ittifoqiga kiradigan barcha davlatlarga ish va talabalik vizasini qo'lga kiritishda ko'mak berish",
+    "company": "Kompaniyalar guruhi",
+    "companyInfo": "- O'zbegim somsalari - Treyderlik kompaniyasi - IT Kompaniya"
+  },
+  "contactBlock": {
+    "title": "Kontakt",
+    "advertising": "Hamkorlik va Reklama",
+    "phone": "Telefon: +998 |95| 707-08-07",
+    "email": "E-mail: . botir.mirzagaliev@gmail.com",
+    "social": "Ijtimoiy Tarmoqlar",
+    "telegram": "telegram",
+    "facebook": "facebook",
+    "whatsapp": "whatsapp"
   }
 }
-

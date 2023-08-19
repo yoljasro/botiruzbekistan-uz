@@ -22,7 +22,7 @@
           <HalalCard
             image="/img/turismm.png"
             title={t("work.tourism")}
-            description={t("work.tourismInfo")}
+            description={t("workingtourism")}
           />
           <HalalCard
             image="/img/hokmmm.png"

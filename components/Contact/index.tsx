@@ -22,7 +22,7 @@ export const Contact = () => {
             <h2>{t("contactBlock.social")}</h2>
             <div className={styles.links}>
             <div className={styles.icon}>
-                <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">{t("contactBlock.instagram")}</a>
+                <a rel='noreferrer' className={styles.text} href="https://instagram.com/botir.uzbekistan">{t("instagram")}</a>
                 <a rel='noreferrer'  className={styles.text} href="https://wa.me/qr/H7LPF2NHCBRCB1">{t("contactBlock.whatsapp")}</a>
             </div>
             <div className={styles.icon}>
