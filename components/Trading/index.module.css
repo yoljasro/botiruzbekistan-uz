@@ -1,0 +1,83 @@
+.trading {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  background: #FAF8F6;
+  margin-bottom: 50px;
+}
+.trading__info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.trading__title {
+  text-align: center;
+  font-size: 70px !important;
+  color: black !important;
+  font-weight: 700 !important;
+  font-family: Montserrat-Bold !important;
+  padding-top: 50px;
+}
+.trading__desc {
+  font-size: 18px !important;
+  color: #4A556C !important;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+.trading__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.trading__card {
+  background: #727AF0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 440px;
+  padding: 4px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  box-shadow: 0.4px 2px 0.8px 0.4px aqua;
+}
+.trading__cardTitle {
+  font-size: 40px !important;
+  color: white !important;
+  font-weight: 500 !important;
+  font-family: Montserrat-Medium !important;
+}
+.trading__cardDesc {
+  font-size: 17px !important;
+  color: white !important;
+  padding: 5px;
+}
+.trading__social {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+.trading__icon {
+  font-size: 35px;
+}
+.trading__icon:hover {
+  transform: rotate(360deg);
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.trading__website {
+  color: lightblue;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=index.module.css.map */
