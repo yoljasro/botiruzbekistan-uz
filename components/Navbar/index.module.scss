@@ -51,10 +51,6 @@
       &__menuItem{
         display: none;
       }
-    // &:hover {
-    //   color: aqua;
-    //   text-decoration: underline;
-    // }
   }
 
   &__mobileMenu {
@@ -68,32 +64,38 @@
     @include font(23px, $white, bold);
     cursor: pointer;
     margin-bottom: 15px;
-    // &:hover {
-    //   color: aqua;
-    //   text-decoration: underline;
-    // }
     & Link{
       &:hover {
         color: aqua;
-        // text-decoration: underline;
       }
     }
   }
 
-  &__language {
-    width: 100% !important;
-    max-width: 340px !important;
-    border-color: white !important;
-    margin-top: 31px;
-    outline-color: white !important;
-    @include font(22px, $white, bold);
-    text-align: center !important
+  &__langCont {
+    // width: 100%;
+    @media (max-width:768px){
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
   }
+    &__language {
+      width: 100% !important;
+      max-width: 340px !important;
+      border-color: white !important;
+      margin-top: 31px;
+      display: flex;
+      justify-content: center;
+      outline-color: white !important;
+      @include font(22px, $white, bold);
+      text-align: center !important
+    }
 
-  &__select {
-    @include font(22px, $white, bold);
-    border: none !important;
-    outline: none !important;
-    border-color: white !important;
+    &__select {
+      @include font(22px, $white, bold);
+      border: none !important;
+      outline: none !important;
+      border-color: white !important;
+    }
   }
-}

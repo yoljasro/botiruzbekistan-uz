@@ -160,6 +160,7 @@ export const Navbar: FC = () => {
           </div>
         </div>
       )}
+      <div className={styles.navbar__langCont}>
       <FormControl className={styles.navbar__language}>
         <Select
           value={selectedLang}
@@ -173,6 +174,7 @@ export const Navbar: FC = () => {
           ))}
         </Select>
       </FormControl>
+      </div>
     </nav>
   );
 };
