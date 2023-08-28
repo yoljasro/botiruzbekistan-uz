@@ -13,6 +13,9 @@ import { ThemeProvider } from "@mui/material";
 //lib
 //sass
 import "../styles/globals.sass";
+// next progresbar
+import NextNProgress from 'nextjs-progressbar';
+
 
 type PagePropsType = {
 	messages: typeof import("../messages/uz.json")
@@ -37,6 +40,7 @@ function MyApp({ Component, pageProps }: AppProps<PagePropsType>) {
 	return (
 		<>
 			<NextIntlProvider messages={pageProps.messages}>
+			<NextNProgress />
 						<Component {...pageProps} {...{previousRoute: previousRoute}} />
 			</NextIntlProvider>
 		</>
